@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #212529; /* Warna latar belakang gelap */
+  color: #ffffff; /* Warna teks putih */
+  margin: 0;
+  padding: 0;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #333; /* Warna latar belakang scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Warna thumb scrollbar */
+}
+
+/* Header styles */
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.form-label {
+  font-weight: bold;
+  color: #ffffff; /* Warna teks untuk label */
+}
+
+/* Search Result styles */
+.search-result {
+  padding: 30px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #333;
+  margin-top: 20px;
+}
+
+.search-result-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-result-image {
+  flex: 0 0 30%; /* Lebar gambar */
+  max-width: 30%; /* Lebar maksimum gambar */
+  border-radius: 5px; /* Sudut bulat pada gambar */
+  margin-right: 20px; /* Ruang antara gambar dan teks */
+}
+
+.search-result-text {
+  flex: 1; /* Menggunakan sisa ruang untuk teks */
+}
+
+.search-result-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.search-result-caption {
+  color: #ccc;
+}
+
+.search-result-date {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.image-container .card {
+  border: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Ubah shadow jika diperlukan */
+}
+
+.image-container .card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff; /* Warna teks untuk judul */
+}
+
+.image-container .card-text {
+  font-size: 0.9rem;
+  color: #ccc; /* Warna teks untuk deskripsi */
+}
+
+#pencarian {
+  margin-top: 0 !important;
+  padding: 180px;
+  background-image: url('https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.contact-us-section {
+  background-color: #212529;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.contact-us-section form {
+  margin-top: 30px;
+}
+
+.contact-us-section .form-label {
+  color: #fff;
+}
+
+.contact-us-section .form-control {
+  background-color: #444;
+  border-color: #888;
+  color: #fff;
+}
+
+.contact-us-section .btn-primary {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+}
+
+.contact-us-section .btn-primary:hover {
+  background-color: #ffee33;
+  border-color: #ffee33;
+  color: #333;
+}
+
+/* Social Media Icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons .social-icon {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.social-icons .social-icon:hover {
+  color: #ffcc00;
+}
